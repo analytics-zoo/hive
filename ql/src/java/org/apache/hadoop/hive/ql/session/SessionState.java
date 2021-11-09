@@ -719,11 +719,15 @@ public class SessionState {
         "HDFS root scratch dir: " + rootHDFSDirPath + ", permission: " + currentHDFSDirPermission);
     }
     // If the root HDFS scratch dir already exists, make sure it is writeable.
+    // to fix ls return wrong permissions in graphene
+    LOG.warn("hive.SessionState.createRootHDFSDir disabled permission check!!!");
+    /*
     if (!((currentHDFSDirPermission.toShort() & writableHDFSDirPermission
         .toShort()) == writableHDFSDirPermission.toShort())) {
       throw new RuntimeException("The root scratch dir: " + rootHDFSDirPath
           + " on HDFS should be writable. Current permissions are: " + currentHDFSDirPermission);
     }
+    */
     return rootHDFSDirPath;
   }
 
