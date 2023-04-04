@@ -714,8 +714,8 @@
   </dependencies>
   <repositories>
     <repository>
-      <id>springio-plugins-release</id>
-      <url>https://repo.spring.io/plugins-release</url>
+      <id>spring</id>
+      <url>https://maven.aliyun.com/repository/spring</url>
     </repository>
   </repositories>
   <profiles>
