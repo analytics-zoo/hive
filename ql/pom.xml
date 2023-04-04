@@ -714,8 +714,8 @@
   </dependencies>
   <repositories>
     <repository>
-        <id>spring-libs</id>
-        <url>http://repo.spring.io/libs-milestone/</url>
+      <id>springio-plugins-release</id>
+      <url>https://repo.spring.io/plugins-release</url>
     </repository>
   </repositories>
   <profiles>
