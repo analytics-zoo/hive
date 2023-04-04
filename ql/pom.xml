@@ -714,8 +714,8 @@
   </dependencies>
   <repositories>
     <repository>
-        <id>spring-libs</id>
-        <url>http://repo.spring.io/libs-milestone/</url>
+      <id>spring-libs</id>
+      <url>http://repo.spring.io/libs-milestone/</url>
     </repository>
   </repositories>
   <profiles>
